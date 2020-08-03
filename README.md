@@ -6,7 +6,6 @@
 Root module consists of 3 modules which calls during deployment:
 - `gke-sa` - module for creating service account for GKE cluster nodes.
 - `gke` - module for deploying GKE clusters.
-- `helm` - module for deploying Helm charts on GKE cluster.
 Each module contains README.md file with short description.
 
 #### Input variables
@@ -42,7 +41,7 @@ Each module contains README.md file with short description.
 - `terraform -help` 
     
 3. Start deployment.
-- `cd gcloud`
+- `cd terraform-gke`
 - `terraform init ./`
 - `terraform plan ./`
 - `terraform apply ./`
