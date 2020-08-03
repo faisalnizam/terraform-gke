@@ -47,8 +47,3 @@ Each module contains README.md file with short description.
 - `terraform plan ./`
 - `terraform apply ./`
 
-
-### Description of current example deployment.
-In this example terraform deploys single zone cluster with two node pools.
-As an example terraform deploys "Wordpress" helm chart with ingress enabled.
-
